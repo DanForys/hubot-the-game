@@ -1,0 +1,25 @@
+{
+  "name": "hubot-the-game",
+  "version": "1.0.0",
+  "description": "Losing the game. Together.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanForys/hubot-the-game.git"
+  },
+  "keywords": [
+    "game",
+    "lose",
+    "the",
+    "hubot"
+  ],
+  "author": "DanForys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanForys/hubot-the-game/issues"
+  },
+  "homepage": "https://github.com/DanForys/hubot-the-game#readme"
+}
