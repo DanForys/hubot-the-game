@@ -1,6 +1,6 @@
 # Description:
 #   Losing the game. Together.
-var GAME_ODDS = process.env.HUBOT_GAME_ODDS || 1000;
+GAME_ODDS = process.env.HUBOT_GAME_ODDS or 1000;
 
 responses = [
   'You just lost Game roulette.',
