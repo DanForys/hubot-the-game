@@ -1,5 +1,7 @@
 # Description:
 #   Losing the game. Together.
+var GAME_ODDS = process.env.HUBOT_GAME_ODDS || 1000;
+
 responses = [
   'You just lost Game roulette.',
   'Hey you just reminded me - have you played The Game lately?',
@@ -38,7 +40,7 @@ replies = [
 module.exports = (robot) ->
   robot.hear /.*$/i, (msg) ->
     # Roll the dice!
-    if (Math.round(Math.random() * 500) == 1)
+    if (Math.round(Math.random() * GAME_ODDS) == 1)
       msg.reply(responses[Math.floor(Math.random() * responses.length)])
 
   robot.hear /the game/i, (msg) ->
