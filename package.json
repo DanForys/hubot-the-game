@@ -1,6 +1,6 @@
 {
   "name": "hubot-the-game",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Losing the game. Together.",
   "main": "index.coffee",
   "scripts": {
